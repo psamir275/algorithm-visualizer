@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer</title>
+    <link href="sort.css" rel="stylesheet">
+    
+</head>
+<body>
+     <header>
+    <h1>ALGORITHMS VISUALIZER</h1>
+  </header>
+  
+  <section class="hero-section">
+    <h2><br><br>Sorting Algorithm Visualizer</h2>
+    <div class="button" id="button">
+    <a href="#container" class="cta-button">Get Started</a><BR></BR>
+    <a href="index.html" class="cta-button">Home</a>
+</div>
+    </section>
+        <br><br><br><br>
+    <div class="container" id="container">
+
+        <button class="btn2 my-button"
+                onclick="SelectionSort(),disable(),algorithm(),enable()" id="Button2" >
+            Selection Sort</button>
+        
+            <button class="btn3 my-button"
+                onclick="QuickSort(),disable(),enable()" id="Button3" >
+                Quick Sort</button>
+        
+                
+            <button class="btn4 my-button"
+                onclick="BubbleSort(),disable(),enable()" id="Button4" >
+                Bubble Sort</button>
+        
+            <button class="btn5 my-button"
+                onclick="InsertionSort(),disable(),enable()" id="Button5" >
+                Insertion Sort</button>
+        
+            </div>
+        
+                <br><br><br>
+        
+            <div class="container5" id="container5">
+        
+              <div class="col" id="input">
+                <span id="size" style="color:white">Size
+                    <input id="arr_sz" type="range" min="5" max="100" step="1" value="60">
+                </span>
+                <span id="speed" style="color:white" >Speed
+                    <input id="speed_input" type="range" min="20" max="300" stepdown="10" value="60">
+                </span>
+           
+            
+        <!-- "Generate New Array" button -->
+        <button class="btn1 my-button" onclick="generate()" id="Button1" >
+            Generate New Array</button>
+        </div>
+        <br>
+        <br><br>
+        <section class="data-container"></section>
+        <footer></footer>
+        <script src="sort.js"></script>
+</body>
+</html>
