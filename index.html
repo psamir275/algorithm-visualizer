@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorithm Visualizer</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #e82f2f;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    
+    main {
+      margin: 20px;
+      text-align: center;
+    }
+    
+    .hero-section {
+      background-image: url('background.png');
+      background-size: cover;
+      background-position: center;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+    
+    .hero-section h2 {
+      font-size: 48px;
+      margin: 0;
+    }
+    
+    .cta-button {
+      background-color: #ff5722;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    
+    .features-section {
+      background-color: #000000;
+      padding: 40px;
+      text-align: center;
+    }
+    
+    .features-section h1 {
+      padding: 50px;
+      text-align: center;
+      background-color: #000000;
+      color: white;
+    }
+    
+    .feature-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      background-color: #000000;
+    }
+    
+    .feature-box-item {
+      flex-basis: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px;
+      color: #fff;
+      background-color: black;
+    }
+    
+    .feature-box-item h4 {
+      font-size: 20px;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    
+    .feature-box-item p{
+
+            font-size: small;
+
+
+    }
+
+    .hero-section2{
+
+        font-size: large;
+        margin: 0;
+    }
+
+    .hero-section2 h1{
+
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+
+    }
+
+.hero-section2 p{
+
+        color: white;
+        font-weight: bold;
+        font-size:medium;
+        text-align: justify;
+
+}
+
+.hero-section3{
+
+    font-size: large;
+    margin: 0;
+}
+
+
+
+.hero-section3 h3{
+
+    color: white;
+
+}
+
+ footer {
+      background-color: #000000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  width: 30%;
+  display: table;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  color: white;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+  </style>
+</head>
+<body>
+    
+  <header>
+    <h1>ALGORITHM  VISUALIZER</h1>
+  </header>
+  
+  <section class="hero-section">
+    <h2>Welcome to our Algorithms Visualizer Application</h2>
+    <a href="#features-section" class="cta-button">Get Started</a>
+  </section>
+  
+  <main>
+    <section class="features-section" id="features-section">
+      <h1>Algorithms to Visualize</h1>
+      <div class="feature-box">
+        <div class="feature-box-item"><a href="algo/sort.html">
+          <h4>Sorting Algorithm</h4>
+          <p>Click Here to Visualize Sorting Algorithms</p></a>
+        </div>
+        <div class="feature-box-item"><a href="algo/search.html">
+          <h4>Searching Algorithm</h4>
+          <p>Click Here to Visualize Searching Algorithms</p></a>
+        </div>
+        <div class="feature-box-item"><a href="#">
+          <h4>Graph Algorithm</h4>
+          <p>Click Here to Visualize Graph Algorithms</p></a>
+        </div>
+    </section>
+        <br><br><br><br><br<br><br><br><br><br><br><br><br>
+    <div class="hero-section2" id="hero-section2">
+        <h1>Project Description</h1>
+        <br><br>
+        <p>The Algorithm Visualizer is a web application designed to provide an interactive and educational platform for understanding various algorithms through visual representation. This project aims to bridge the gap between theoretical knowledge and practical implementation of algorithms by providing a visually engaging experience.</p>
+
+        <p>With the Algorithm Visualizer, users can witness how different algorithms work step-by-step, making complex concepts more accessible and comprehensible. The application offers a user-friendly interface where users can select from a range of algorithms and customize input parameters to observe the algorithm's behavior in action.</p>
+
+        <p>To Download the Full Documentation Please <a href="">Click Here</a></p>
+
+
+    </div>
+    <br><br><br>
+
+    <div class="about-section">
+      <h1>About Us</h1>
+    </div>
+    
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row" style="display: flex;">
+      <div class="column">
+        <div class="card">
+          <img src="photos/samir.jpg" alt="Samir" style="width:100%">
+          <div class="container">
+            <h2 style="font-size: small;font-weight: bold;">Samir Pramanik</h2>
+            <p style="font-size: smaller; text-align: justify;">I am the front-end developer of the project</p>
+            <p style="font-size: smaller; text-align: justify;">psamir275@outlook.com</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="photos/souvik.jpg" alt="Souvik" style="width:100%">
+          <div class="container">
+            <h2 style="font-size: small;font-weight: bold;">Souvik Das</h2>
+            <p style="font-size: smaller; text-align: justify;">I am the front-end developer of the project</p>
+            <p style="font-size: smaller; text-align: justify;">souvik@example.com</p>
+            
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="photos/biswajit.jpg" alt="Biswajit" style="width:100%">
+          <div class="container">
+            <h2 style="font-size: small;font-weight: bold;">Biswajit Das</h2>
+            <p style="font-size: smaller; text-align: justify;">I am the tester of the project.</p>
+            <p style="font-size: smaller; text-align: justify;">biswajit@example.com</p>
+           
+          </div>
+        </div>
+      </div>  
+
+      <div class="column">
+        <div class="card">
+          <img src="photos/suchismita.jpg" alt="Suchismita" style="width:100%">
+          <div class="container">
+            <h2 style="font-size: small;font-weight: bold;">Suchismita Pal</h2>
+            <p style="font-size: smaller; text-align: justify;">I am the content writer of the project.</p>
+            <p style="font-size: smaller; text-align: justify;">suchismita@example.com</p>
+            
+          </div>
+        </div>
+      </div>
+      
+
+    
+      <div class="column">
+        <div class="card">
+          <img src="photos/kazi.jpg" alt="Kazi" style="width:100%">
+          <div class="container">
+            <h2 style="font-size: small;font-weight: bold;">Kazi Moksud Hossain</h2>
+            <p style="font-size: smaller; text-align: justify;">I am content writer of the project.</p>
+            <p style="font-size: smaller; text-align: justify;">kazi@example.com</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+    <footer>Contact Us</footer>
+
+    </main>      
+    </body>
+    </html>
