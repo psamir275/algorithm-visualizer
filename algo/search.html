@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="search.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+  
+  <section class="hero-section">
+    <h2>Searchinhg Algorithm Visualizer</h2><BR></BR>
+       <div class="button" id="button" style="display: flex;">
+    <a href="#fname" class="cta-button">Experience the Visualizer</a>
+    
+    <a href="/index.html" class="cta-button">Home</a>
+  </section>
+
+    <br>
+
+    <div style="text-align: center" id="items">
+        <label for="fname"><h3>
+            Number to be Searched:
+        </label>
+        <input type="text" id="fname" name="fname" /></h3><br>
+        <button id="btn"
+                onclick="LinearSearch()">Linear Search
+        </button>
+        <button id="btn"
+        onclick="BinarySearch()">Binary Search
+</button>
+<button id="btn"
+onclick="TernarySearch()">Ternary Search
+</button>
+<br><br>
+<button id="btn"
+onclick="QuickSort()">Sort The Data
+</button>
+<button id="btn"
+onclick="generate()">Genarate New Data
+</button>
+        <br>
+        <div id="text"></div>
+        </div><br>
+
+	<div id="array"></div>
+	<br /><br /><br>
+
+        <footer>CONTACT US</footer>
+
+        <p style="text-align: center;"><i class="fa fa-phone" style="font-size:15px; color: #fff; font-weight: bold;"> Phone:</i><a href="tel:+918961439072"> +91 8961439072</a></p>
+        <p  style="text-align: center;"><i class="fa fa-envelope" style="font-size:15px; color: #fffafa; font-weight: bold;">Email: </i><a href="mailto:psamir275@outlook.com"> psamir275@outlook.com</a></p>
+        
+
+	<script src="search.js"></script>
+</body>
+</html>

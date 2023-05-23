@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    body{
+
+        background-color: black;
+    }
+    
+    .header {
+    font-size: 35px;
+    text-align: center;
+    
+    }
+
+    .hero-section {
+        background-image: url('bg.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      
+      .hero-section h2 {
+        font-size: 48px;
+        margin: 0;
+      }
+
+      .cta-button {
+        background-color: #d74444;
+        color: #000000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 24px;
+        margin-top: 20px;
+        font-weight: bold;
+        border-radius: 30px;
+      }
+
+      footer {
+        background-color: #000000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 50px;
+      }
+    h1 {
+   
+    
+        background-color: rgb(0, 0, 0);
+        color: #ff0404;
+        font-size: 50px;
+        margin-top: 0;
+        align-items: center;
+        text-align: center;
+      }
+
+    #array {
+        background-color: black;
+        width: 745px;
+        height: 320px;
+        position: relative;
+        margin: 0 auto;
+    
+    }
+    
+    .block {
+        width: 28px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: rgb(223, 229, 61);
+        transition: 0.2s all ease;
+    }
+    
+    .block_id {
+    position: absolute;
+    color: rgb(194, 194, 194);
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    
+    }
+
+    #items{
+
+        background-color: black;
+        color: lightgoldenrodyellow;
+        font-weight: bold;
+        font-size: larger;
+        
+
+    }
+
+    #text{
+
+        background-color: black;
+        color: lightgoldenrodyellow;
+        font-weight: bold;
+        font-size: larger;
+        
+
+    }
+
+    #btn{
+        background-color: darkorange;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        text-decoration: wavy;
+        font-weight: bold;
+      }
+      
+    #btn:hover{
+    
+        color: darkblue;
+      }
+    
+    
