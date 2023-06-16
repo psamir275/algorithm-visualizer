@@ -39,7 +39,7 @@ for (let i = 0; i < num; i += 1) {
 }
 
 // Asynchronous function to perform "Cocktail Sort"
-async function CocktailSort(delay = 0.001) {
+async function CocktailSort(delay = 300) {
 	let bars = document.querySelectorAll(".bar");
 
 	  // For selecting section having id "ele"
@@ -189,7 +189,7 @@ async function CocktailSort(delay = 0.001) {
   
 //Selection Sort
 // asynchronous function to perform "Selection Sort"
-async function SelectionSort(_delay = 0.001) 
+async function SelectionSort(_delay = 300) 
 {
 let bars = document.querySelectorAll(".bar");
 // For selecting section having id "ele"
@@ -263,7 +263,7 @@ barval.innerHTML="<h3> Data is Sorted!!!</h3>";
 
 // Quick Sort
 // asynchronous function to perform "Quick Sort"
-async function QuickSort(delay = 100) {
+async function QuickSort(delay = 300) {
 
   let bars = document.querySelectorAll(".bar");
 // For selecting section having id "ele"
@@ -359,7 +359,7 @@ async function QuickSort(delay = 100) {
 }
 
 //async bubble sort function
-async function BubbleSort(delay = 0.001) 
+async function BubbleSort(delay = 300) 
 {
 	let bars = document.querySelectorAll(".bar");
 		// For selecting section having id "ele"
@@ -404,7 +404,7 @@ async function BubbleSort(delay = 0.001)
   }
   
 // Asynchronous function to perform "Insertion Sort"
-async function InsertionSort(delay = 0.001) {
+async function InsertionSort(delay = 300) {
 	let bars = document.querySelectorAll(".bar");
 	
 	// Provide lightgreen colour to 0th bar
